@@ -31,8 +31,8 @@ fn print_majors(students: &[Student]) {
 
 fn main() {
     let mut stu = vec![
-        Student { major: String::from("") },
-        Student { major: String::from("") },
+        Student { major: String::from("Engineering") },
+        Student { major: String::from("Science") },
         Student { major: String::from("") },
     ];
 
