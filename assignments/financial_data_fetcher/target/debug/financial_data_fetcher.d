@@ -1,0 +1,1 @@
+/workspaces/RustSpring2025/assignments/financial_data_fetcher/target/debug/financial_data_fetcher: /workspaces/RustSpring2025/assignments/financial_data_fetcher/src/main.rs
