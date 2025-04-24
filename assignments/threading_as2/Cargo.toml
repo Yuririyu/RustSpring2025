@@ -1,0 +1,6 @@
+[package]
+name = "threading_as2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
