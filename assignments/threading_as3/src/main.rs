@@ -8,7 +8,6 @@ enum Message {
     Terminate,
 }
 
-// Job type is a boxed closure that can be sent across threads
 type Job = Box<dyn FnOnce() + Send + 'static>;
 
 // ThreadPool struct
@@ -18,13 +17,13 @@ struct ThreadPool {
 }
 
 impl ThreadPool {
-    // Create a new ThreadPool with the specified size
+    // Create a new ThreadPool
     fn new(size: usize) -> ThreadPool {
         assert!(size > 0);
         
         // TODO: Create a channel for sending jobs
         let (sender, receiver) = mpsc::channel();
-        // Wrap the receiver in Arc<Mutex<...>> to share it among workers
+        // Wrap the receiver in Arc<Mutex<...>>, allows sharing it among workers
         let receiver = Arc::new(Mutex::new(receiver));
        
         // TODO: Create and store workers
@@ -49,7 +48,7 @@ impl ThreadPool {
     {
         // TODO: Create a job from the closure and send it to a worker
         let job = Box::new(f);
-        // Send the job to the channel
+        // Send job to the channel
         self.sender.send(Message::NewJob(job)).unwrap();
     }
 }
@@ -75,7 +74,7 @@ impl Drop for ThreadPool {
     }
 }
 
-// Worker struct represents a thread that can process jobs
+// Worker struct represents a thread 
 struct Worker {
     id: usize,
     thread: Option<thread::JoinHandle<()>>,
@@ -93,11 +92,11 @@ impl Worker {
                 match message {
                     Message::NewJob(job) => {
                         println!("Worker {} got a job; executing.", id);
-                        job(); // Execute the job
+                        job(); 
                     }
                     Message::Terminate => {
                         println!("Worker {} terminating.", id);
-                        break; // Exit the loop on terminate message
+                        break; // Exit loop on terminate message
                     }
                 }
             }
@@ -106,7 +105,7 @@ impl Worker {
         // TODO: Return the Worker
         Worker {
             id,
-            thread: Some(thread), // Store the thread handle
+            thread: Some(thread), // Store thread handle
         }
         
     }
@@ -116,7 +115,7 @@ fn main() {
     // Create a new thread pool with 4 workers
     let pool = ThreadPool::new(4);
     
-    // Submit 10 tasks to the pool
+    // Submit 10 tasks into pool
     for i in 1..=10 {
         pool.execute(move || {
             println!("Processing task {}", i);
@@ -126,5 +125,5 @@ fn main() {
     }
     
     println!("Main thread waiting for tasks to complete...");
-    // ThreadPool will be dropped when it goes out of scope, triggering the cleanup
+    // hreadPool will be dropped when it goes out of scope, cleanup
 }
