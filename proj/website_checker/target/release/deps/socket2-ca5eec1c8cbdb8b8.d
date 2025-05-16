@@ -1,0 +1,11 @@
+/workspaces/RustSpring2025/proj/website_checker/target/release/deps/libsocket2-ca5eec1c8cbdb8b8.rmeta: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockaddr.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/socket.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockref.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sys/unix.rs
+
+/workspaces/RustSpring2025/proj/website_checker/target/release/deps/libsocket2-ca5eec1c8cbdb8b8.rlib: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockaddr.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/socket.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockref.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sys/unix.rs
+
+/workspaces/RustSpring2025/proj/website_checker/target/release/deps/socket2-ca5eec1c8cbdb8b8.d: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockaddr.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/socket.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockref.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sys/unix.rs
+
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/lib.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockaddr.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/socket.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sockref.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.9/src/sys/unix.rs:

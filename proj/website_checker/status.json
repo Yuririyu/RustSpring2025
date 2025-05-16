@@ -1,0 +1,5 @@
+[
+  {"url": "https://google.com", "status": {"ok": 200}, "response_time_ms": 126, "timestamp": "SystemTime { tv_sec: 1747357453, tv_nsec: 218353266 }"},
+  {"url": "https://www.utrgv.edu/", "status": {"ok": 200}, "response_time_ms": 147, "timestamp": "SystemTime { tv_sec: 1747357453, tv_nsec: 365769458 }"},
+  {"url": "https://fakeurl.com", "status": {"err": "error sending request for url (https://fakeurl.com/): error trying to connect: dns error: failed to lookup address information: Name or service not known"}, "response_time_ms": 17, "timestamp": "SystemTime { tv_sec: 1747357453, tv_nsec: 383525626 }"}
+]

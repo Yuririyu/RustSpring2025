@@ -1,0 +1,10 @@
+/workspaces/RustSpring2025/proj/website_checker/target/release/deps/libicu_normalizer-0e19229d2acfdc48.rmeta: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/properties.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/provider.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/uts46.rs
+
+/workspaces/RustSpring2025/proj/website_checker/target/release/deps/libicu_normalizer-0e19229d2acfdc48.rlib: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/properties.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/provider.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/uts46.rs
+
+/workspaces/RustSpring2025/proj/website_checker/target/release/deps/icu_normalizer-0e19229d2acfdc48.d: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/properties.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/provider.rs /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/uts46.rs
+
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/lib.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/properties.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/provider.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-2.0.0/src/uts46.rs:
