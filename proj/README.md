@@ -1,6 +1,6 @@
-# Website Status Checker (Rust)
+# Website Status Checker
 
-A concurrent command-line util. to check availability and latency of multiple websites in parallel, entirely built  in Rust.
+A concurrent command-line util. to check availability and latency of multiple websites in parallel.
 
 ## Main Features
 
